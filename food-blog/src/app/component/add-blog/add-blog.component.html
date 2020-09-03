@@ -1,0 +1,27 @@
+<h1>ADD BLOGS</h1>
+<form >
+
+<div class="row">
+<div class="col-lg-6">
+  <label for="blog_title">BLOG TITLE</label>
+  <input type="text" class="form-control" id="blog_title" placeholder="Blog Title" 
+  [(ngModel)]="Blogs.blog_title" [ngModelOptions]="{standalone: true}">
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-6">
+  <label for="image_Url">BLOG IMAGE</label>
+  <input type="text" class="form-control" id="imageurl" placeholder="IMAGE URL" [(ngModel)]="Blogs.image_url" [ngModelOptions]="{standalone: true}" >
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <label for="blog_ desc">BLOG DESCRIPTION</label>
+      <textarea type="text" class="form-control" id="blog_desc" placeholder="Description" [(ngModel)]="Blogs.blog_desc" [ngModelOptions]="{standalone: true}" ></textarea>
+      </div>
+      </div>
+   <br>
+  <button type="button" class="btn btn-success" (click)="addBlog()"  >Save</button>
+</form>

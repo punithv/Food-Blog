@@ -1,0 +1,25 @@
+.example-card {
+    width: 50%;
+    margin: 8px;;
+   
+  }
+  .container-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  mat-card-img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width:100px ;/* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height:50px;
+   
+
+  }

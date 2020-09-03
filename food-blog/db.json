@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "id": 6,
+      "blog_title": "Vegetables",
+      "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "blog_desc": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+    },
+    {
+      "id": 7,
+      "blog_title": "Burger",
+      "image_url": "https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+      "blog_desc": "Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant."
+    }
+  ]
+}
